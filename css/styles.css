@@ -35,13 +35,16 @@ img {
 }
 
 .header {
-	display: flex;
-	align-items: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .navigation-container {
 	width: 1200px;
+	padding: 0 15;
 	margin: 0 auto;
+	display: flex;
+	align-items: center;
 }
 
 .navigetion {
@@ -111,8 +114,6 @@ img {
 
 .hero {
 	background: #2f303a;
-	width: 1600px;
-	height: 600px;
 }
 
 .hero-title {
@@ -124,6 +125,9 @@ img {
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
+	padding-top: 280px;
+	padding-left: 452px;
+	padding-right: 452px;
 }
 
 .hero-btn {
@@ -139,6 +143,9 @@ img {
 	background: #2196f3;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	min-width: 200px;
+	padding: 10px 32px;
+	justify-content: center;
 }
 
 .visually-hidden {
