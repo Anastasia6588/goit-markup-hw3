@@ -118,7 +118,7 @@ img {
 }
 
 .hero {
-	background: #2f303a;
+	background-color: #2f303a;
 	text-align: center;
 }
 
@@ -151,7 +151,7 @@ img {
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
-	background: #2196f3;
+	background-color: #2196f3;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	min-width: 200px;
@@ -231,7 +231,7 @@ img {
 }
 
 .team {
-	background: #f5f4fa;
+	background-color: #f5f4fa;
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
@@ -261,7 +261,7 @@ img {
 
 .person-card-list {
 	list-style-type: none;
-	background: #ffffff;
+	background-color: #ffffff;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 	text-align: center;
@@ -295,7 +295,7 @@ img {
 /*footer*/
 
 .footer {
-	background: #2f303a;
+	background-color: #2f303a;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
@@ -349,8 +349,16 @@ img {
 
 /*portfolio*/
 
+.product-page {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
 .filter-buttons {
+	width: 1200px;
+	display: flex;
+	justify-content: center;
 	list-style-type: none;
+	margin: 0 auto;
 }
 
 .filter-buttons-item {
@@ -361,17 +369,39 @@ img {
 	line-height: 1.625;
 	text-align: center;
 	letter-spacing: 0.03em;
-	background: #f5f4fa;
+	background-color: #f5f4fa;
+	border-color: transparent;
 	border-radius: 4px;
 }
 
-.filter-buttons-item:hover {
+.general-filter:not(:last-child) {
+	margin-right: 8px;
+}
+
+.filter-buttons-item:hover,
+:focus {
 	color: var(--light-text-color);
-	background: #2196f3;
+	background-color: #2196f3;
+}
+
+.product-cards-container {
+	width: 1200px;
 }
 
 .product-cards {
+	display: flex;
 	list-style-type: none;
+	margin: 0 auto;
+}
+
+.product-cards-design {
+	width: calc(100% - 60px) / 3;
+	background-color: #ffffff;
+	border: 1px solid #eeeeee;
+}
+
+.product-cards-design:nth-child(3n) {
+	margin-right: 0;
 }
 
 .product-cards-title {
@@ -393,7 +423,7 @@ img {
 }
 
 .product-cards-design {
-	background: #ffffff;
+	background-color: #ffffff;
 	border: 1px solid #eeeeee;
 	box-sizing: border-box;
 }
