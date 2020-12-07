@@ -358,7 +358,9 @@ img {
 	display: flex;
 	justify-content: center;
 	list-style-type: none;
-	margin: 0 auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .filter-buttons-item {
@@ -384,23 +386,27 @@ img {
 	background-color: #2196f3;
 }
 
-.product-cards-container {
-	width: 1200px;
-}
-
 .product-cards {
-	display: flex;
 	list-style-type: none;
+}
+.product-cards-container {
+	display: flex;
+	width: 1200px;
+	flex-wrap: wrap;
 	margin: 0 auto;
 }
 
 .product-cards-design {
-	width: calc(100% - 60px) / 3;
+	width: calc((100% - 60px) / 3);
 	background-color: #ffffff;
 	border: 1px solid #eeeeee;
 }
 
-.product-cards-design:nth-child(3n) {
+/*.product-cards-design:nth-child(3n) {
+	margin-right: 0;*/
+}
+
+.product-img {
 	margin-right: 0;
 }
 
