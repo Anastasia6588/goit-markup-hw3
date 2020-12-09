@@ -85,6 +85,7 @@ img {
 	font-size: 14px;
 	line-height: 1.142;
 	letter-spacing: 0.02em;
+	background-color: #ffffff;
 }
 
 .site-nav-item:not(:last-child) {
@@ -94,6 +95,7 @@ img {
 .site-nav:hover,
 :focus {
 	color: var(--hover-color);
+	background-color: #ffffff;
 }
 
 .contacts-list {
@@ -123,7 +125,7 @@ img {
 	background-color: #2f303a;
 	text-align: center;
 	align-items: center;
-	width: 1200px;
+	width: 1600px;
 	padding-top: 200px;
 	padding-bottom: 200px;
 	margin: 0 auto;
@@ -163,9 +165,6 @@ img {
 .container {
 	display: flex;
 }
-/*width: 1200 px;
-	margin: 0 auto;
-}*/
 
 .advantages {
 	padding-top: 94px;
@@ -380,6 +379,7 @@ img {
 	background-color: #f5f4fa;
 	border-color: transparent;
 	border-radius: 4px;
+	padding: 6px 22px;
 }
 
 .general-filter:not(:last-child) {
@@ -390,6 +390,7 @@ img {
 :focus {
 	color: var(--light-text-color);
 	background-color: #2196f3;
+	border-color: transparent;
 }
 
 .product-cards-container {
