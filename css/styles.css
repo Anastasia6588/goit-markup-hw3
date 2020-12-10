@@ -45,6 +45,7 @@ img {
 .header {
 	padding-top: 25px;
 	padding-bottom: 25px;
+	border: 1px solid #ececec;
 }
 
 .navigation-container {
@@ -348,12 +349,6 @@ img {
 }
 
 /*portfolio*/
-
-.header-portfolio {
-	padding-top: 25px;
-	padding-bottom: 25px;
-	border: 1px solid #ececec;
-}
 
 .product-page {
 	padding-top: 94px;
